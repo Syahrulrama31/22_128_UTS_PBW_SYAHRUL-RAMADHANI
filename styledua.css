@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg-color: rgb(31, 36, 45);
+  --second-bg-color: #323946;
+  --color-main: #0ef;
+}
+body {
+  background-color: var(--second-bg-color);
+}
+.row {
+  margin-top: 1%;
+}
+h1 {
+  text-align: center;
+}
+h1 span {
+  color: var(--color-main);
+}
+.navbar-brand span {
+  color: var(--color-main);
+  font-size: 130%;
+  font-weight: bold;
+}
+a.navbar-brand {
+  font-size: medium;
+}
+.offcanvas-body button {
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  background-color: red;
+  
+}
+
+.offcanvas-body button a{
+    color: white;
+    text-decoration: none;
+}
+.card{
+  display: flex;
+  justify-content: flex-end;
+}
+.card .d-flex{
+    width: 30%;
+   
+    
+}
