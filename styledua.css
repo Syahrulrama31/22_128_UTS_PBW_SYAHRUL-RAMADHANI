@@ -30,9 +30,12 @@ a.navbar-brand {
 .offcanvas-body button {
   position: absolute;
   font-weight: bold;
+  left: 5px;
   text-align: center;
   background-color: red;
-  
+  bottom: 15px;
+  width: 98%;
+  right: 10px;
 }
 
 .offcanvas-body button a{
